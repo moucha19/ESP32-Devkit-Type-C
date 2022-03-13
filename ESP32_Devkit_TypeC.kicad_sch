@@ -3578,7 +3578,7 @@
     (uuid 00000000-0000-0000-0000-00005eb3eb53)
     (property "Reference" "J1" (id 0) (at 37.0078 40.2082 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 37.0078 42.5196 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 38.1 62.23 0)
+    (property "Footprint" "Moucha_Connectors:USBC_Receptacle_TYPE-C-31-M-12" (id 2) (at 38.1 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 38.1 62.23 0)
@@ -5097,7 +5097,7 @@
   (symbol (lib_id "power:+3V3") (at 83.82 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 81b97e70-46f3-4336-aebf-837d4cb8d978)
-    (property "Reference" "#PWR?" (id 0) (at 83.82 36.83 0)
+    (property "Reference" "#PWR0130" (id 0) (at 83.82 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 84.201 28.6258 0))
@@ -5113,7 +5113,7 @@
   (symbol (lib_id "power:GND") (at 69.85 41.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e89e4f7f-5566-4b18-a6b1-ab29876f8a10)
-    (property "Reference" "#PWR?" (id 0) (at 69.85 48.26 0)
+    (property "Reference" "#PWR0106" (id 0) (at 69.85 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 69.977 46.3042 0))
@@ -5145,6 +5145,9 @@
     )
     (path "/00000000-0000-0000-0000-00005eb5c831"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e89e4f7f-5566-4b18-a6b1-ab29876f8a10"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005eb6312c"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
@@ -5216,10 +5219,7 @@
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/81b97e70-46f3-4336-aebf-837d4cb8d978"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/e89e4f7f-5566-4b18-a6b1-ab29876f8a10"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0130") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f1a8ada"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Antenna_IFA:Antenna_IFA_2.4GHz_meandered")
@@ -5318,7 +5318,7 @@
       (reference "I2") (unit 1) (value "Icon") (footprint "Signs:OSHW_icon_3.3x3")
     )
     (path "/00000000-0000-0000-0000-00005eb3eb53"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Moucha_Connectors:USBC_Receptacle_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005eca1541"
       (reference "J2") (unit 1) (value "Conn_01x19") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
