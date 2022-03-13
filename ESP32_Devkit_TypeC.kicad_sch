@@ -3839,7 +3839,7 @@
     (property "Datasheet" "~" (id 3) (at 78.74 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" " C90319" (id 4) (at 78.74 149.86 90)
+    (property "LCSC" "C90319" (id 4) (at 78.74 149.86 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a117188-a4e2-4447-a83d-78e587046418))

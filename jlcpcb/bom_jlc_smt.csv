@@ -8,7 +8,7 @@
 "22 uF","C8,C13,C24","Capacitor_SMD:C_0603_1608Metric","C59461"
 "B5819W","D1,D2","Diode_SMD:D_SOD-123","C8598"
 "LED","D3","LED_SMD:LED_0603_1608Metric_Castellated","C2286"
-"4.7 uH","L1","Inductor_SMD:L_1210_3225Metric"," C90319"
+"4.7 uH","L1","Inductor_SMD:L_1210_3225Metric","C90319"
 "SS8050","Q1,Q2","Package_TO_SOT_SMD:SOT-23","C2150"
 "100 kR","R1,R10","Resistor_SMD:R_0402_1005Metric","C25741"
 "5.1 kR","R2,R3","Resistor_SMD:R_0402_1005Metric"," C25905"
