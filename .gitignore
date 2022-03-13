@@ -25,10 +25,10 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+jlcpcb/fab
 
 # Exported BOM files
 *.xml
-*.csv
 
 # Backup folders
 *-backups*
