@@ -18,4 +18,4 @@
 "5.1kR","R7,R8,R9","Resistor_SMD:R_0402_1005Metric"," C25905"
 "MP2259","U1","Package_TO_SOT_SMD:SOT-23-6","C82266"
 "CH340C","U2","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","C84681"
-"ESP32-PICO-D4","U3","Package_ESP32:ESP32-Pico-D4","C193707"
+"ESP32-PICO-D4","U3","Package_ESP32:ESP32-Pico-D4-Thermal","C193707"

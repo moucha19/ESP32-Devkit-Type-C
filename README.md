@@ -3,7 +3,7 @@ ESP32 Devkit Type C
 
 ## 2022 Update ([*@moucha19*](https://github.com/moucha19))
 
-First of all, I would like to thank the original author for his work. I wanted to make this DevKit as soon as I saw it. However, there were some issues that I thought needed fixing. For example, some components were unavailable or not up-to-date. Here is a full list of my updates that all together make revision **EB**:
+First of all, I would like to thank the original author for his work. I wanted to make this DevKit as soon as I saw it. However, there were some issues that I thought needed fixing. For example, some components were unavailable or not up-to-date. Here is a full list of my updates that all together make revision **EC**:
 
 * CH340G was changed to CH340C to remove the need for external crystal. I also noticed that it's powered from VBUS, which according to datasheet means that the data lines will run on 5 volts. This might not kill ESP32 right away, but from what I read, it isn't good.
 * I replaced MP2359 with MP2259, because the former is not recommended for new designs. JLCPCB still has MP2359s, but I wanted this update to last a while.
@@ -32,7 +32,7 @@ assembly service. All components on this board, except the USB Type C connector,
 the push buttons and the pin headers can be assembled by them for around ~$8
 including PCB manufacturing and components.
 
-![Devkit](/resources/revEB.png)
+![Devkit](/resources/revEC.png)
 
 # Assembly
 

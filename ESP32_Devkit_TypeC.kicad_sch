@@ -6,8 +6,8 @@
 
   (title_block
     (title "ESP32 DevKit Type C")
-    (date "2022-03-17")
-    (rev "EB")
+    (date "2022-03-21")
+    (rev "EC")
   )
 
   (lib_symbols
@@ -2291,7 +2291,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4f411f68-04bd-4175-a406-bcaa4cf6601e)
   )
-  (polyline (pts (xy 50.8 80.01) (xy 80.01 77.47))
+  (polyline (pts (xy 50.8 77.47) (xy 80.01 77.47))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4f4b751d-4323-43d3-b6b1-ce0d095a67bf)
   )
@@ -2644,7 +2644,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 92f063a3-7cce-4a96-8a3a-cf5767f700c6)
   )
-  (polyline (pts (xy 50.8 100.33) (xy 50.8 80.01))
+  (polyline (pts (xy 50.8 100.33) (xy 50.8 77.47))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9356c7da-eaf2-49e3-b164-0ed21ec277c6)
   )
@@ -3435,7 +3435,7 @@
     (uuid 00000000-0000-0000-0000-00005eb3c833)
     (property "Reference" "U3" (id 0) (at 208.28 78.74 0))
     (property "Value" "ESP32-PICO-D4" (id 1) (at 234.95 78.74 0))
-    (property "Footprint" "Package_ESP32:ESP32-Pico-D4-Handsolder" (id 2) (at 222.25 161.29 0)
+    (property "Footprint" "Package_ESP32:ESP32-Pico-D4-Thermal" (id 2) (at 222.25 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf" (id 3) (at 228.6 143.51 0)
@@ -4229,7 +4229,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005eca1541)
     (property "Reference" "J2" (id 0) (at 172.2628 69.4182 0))
-    (property "Value" "Conn_01x19" (id 1) (at 172.2628 71.7296 0))
+    (property "Value" "Left Header" (id 1) (at 172.2628 71.7296 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical" (id 2) (at 170.18 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4347,7 +4347,7 @@
     (property "Reference" "J3" (id 0) (at 271.272 94.1832 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x19" (id 1) (at 271.272 96.4946 0)
+    (property "Value" "Right Header" (id 1) (at 271.272 96.4946 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical" (id 2) (at 269.24 95.25 0)
@@ -4870,7 +4870,7 @@
     (property "Reference" "I2" (id 0) (at 142.24 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Icon" (id 1) (at 145.4912 20.32 0)
+    (property "Value" "OSHW Logo" (id 1) (at 145.4912 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Signs:OSHW_icon_3.3x3" (id 2) (at 142.24 20.32 0)
@@ -5315,16 +5315,16 @@
       (reference "H2") (unit 1) (value "MountingHole") (footprint "ToolingHole:ToolingHole_JLCSMT")
     )
     (path "/00000000-0000-0000-0000-00005f3fe9ba"
-      (reference "I2") (unit 1) (value "Icon") (footprint "Signs:OSHW_icon_3.3x3")
+      (reference "I2") (unit 1) (value "OSHW Logo") (footprint "Signs:OSHW_icon_3.3x3")
     )
     (path "/00000000-0000-0000-0000-00005eb3eb53"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005eca1541"
-      (reference "J2") (unit 1) (value "Conn_01x19") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Left Header") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ed12cc6"
-      (reference "J3") (unit 1) (value "Conn_01x19") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Right Header") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f7702d8"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
@@ -5387,7 +5387,7 @@
       (reference "U2") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005eb3c833"
-      (reference "U3") (unit 1) (value "ESP32-PICO-D4") (footprint "Package_ESP32:ESP32-Pico-D4-Handsolder")
+      (reference "U3") (unit 1) (value "ESP32-PICO-D4") (footprint "Package_ESP32:ESP32-Pico-D4-Thermal")
     )
     (path "/00000000-0000-0000-0000-00005eb3dda3"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")

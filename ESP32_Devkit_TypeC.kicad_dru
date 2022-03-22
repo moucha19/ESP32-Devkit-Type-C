@@ -1,0 +1,9 @@
+(version 1)
+
+(rule "Distance between Vias of Different Nets"
+    (constraint hole_to_hole (min 0.5mm))
+    (condition "A.Type =='Via' && B.Type =='Via' && A.Net != B.Net"))
+
+(rule "Clearance between Pads of Different Nets"
+    (constraint clearance (min 0.127mm))
+    (condition "A.Type =='Pad' && B.Type =='Pad' && A.Net != B.Net"))
